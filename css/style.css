@@ -820,6 +820,37 @@ section {
           transform: scale(1.1);
 }
 
+#button-up {
+  display: none;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  border-radius: 50%;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  font-size: 15px;
+  z-index: 50;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#button-up img {
+  width: 30px;
+  height: 30px;
+}
+
+#button-up:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0.9;
+}
+
 @media screen and (min-width: 1280px) and (max-width: 1360px) {
   .container {
     padding: 0 20px;
